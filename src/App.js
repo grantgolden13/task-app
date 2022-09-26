@@ -49,7 +49,7 @@ class App extends Component {
           <button type="submit">
             Add Task
           </button>
-          <Overview tasks={tasks} />
+          <Overview tasks={tasks} removeTask={this.removeTask} />
         </form>
       </div>
     );
